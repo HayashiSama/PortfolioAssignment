@@ -1,0 +1,128 @@
+/*CSS reset settings here*/
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+h1{
+	display:inline-block;
+	padding:0px;
+	margin:10px;
+}
+h2{
+	margin:0px;
+	color:white;
+}
+h3{
+	margin: 0px;
+	color:white;
+}
+.button{
+	color:white;
+	border-radius: 5px;
+	background-color: rgb(64,125,97);
+
+}
+.button_wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.right{
+	padding-left: 520px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.icon{
+	height:50px;
+	margin:5px;
+}
+.icons{
+	padding:10px;
+	display:inline-table;
+	justify-content: center;
+}
+.portrait{
+	margin-bottom: -5px;
+}
+#main_content{
+	background:radial-gradient(rgb(140,120,140),black);
+	padding:10px;
+	padding-bottom: 20px;
+	width: 1020px;
+	margin: 0px;
+}
+
+#wrapper{
+	margin:0px;
+	padding:0px;
+	background:linear-gradient(rgb(243,243,243),white);
+	width:1040px;
+}
+
+#picture{
+	padding:5px;
+	background-color: white;
+	width:400px;
+	margin:2px;
+	display:inline-block;
+
+}
+#top_row{
+	display:flex;
+	margin-bottom: 25px;
+}
+.middle_row{
+	display:flex;
+	margin-bottom: -5px;
+}
+
+
+.content{
+	display:inline-block;
+	background: linear-gradient(to right,white,rgb(218,203,217));
+	margin:2px;
+	padding-bottom: 5px;
+	width:600px;
+}
+
+.content_center{
+	display:inline-block;
+	background: linear-gradient(to right,white,rgb(218,203,217));
+	margin-left:20px;
+	margin-right:20px;
+	padding-bottom: 5px;
+	width:600px;
+	padding-bottom: 5px
+}
+.content_header{
+	background:linear-gradient(rgb(180,180,180),rgb(135,133,147),rgb(180,180,180));
+	padding-top:5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+#about{
+	display:inline-block;
+	background-color: white;
+	margin:2px;
+	padding-bottom: 5px;
+	width:600px;
+	margin-left: 25px;
+}
+.inner_content{
+	padding:10px;
+}
+#footer{
+	text-align: center;
+	padding-top:5px;
+	background: linear-gradient(white,rgb(243,243,243));
+	vertical-align: middle;
+	padding-bottom:10px;
+}
+.footer_icons{
+	height:20px;
+	background: linear-gradient(rgb(243,243,243),rgb(231,231,231));
+	vertical-align: middle;
+}
